@@ -5,4 +5,20 @@ body{
 header{
     width: 23.4375rem;
     height: 3.9375rem;
+    
+    img{
+        width: 50%;
+        height: auto;
+    }
+
+    
+}
+.restaurants{
+    flex-direction: column;
+    display: flex;
+
+    img{
+        width: 50%;
+        height: 50%;
+    }
 }
