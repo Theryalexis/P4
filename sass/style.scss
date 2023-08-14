@@ -138,7 +138,11 @@ header{
         padding-top: 3rem;
         margin-top: 0rem;
     }
-
+    .global-fonctionnement{
+        gap: 1.56rem;
+        display: flex;
+        flex-direction: column;
+    }
     .cards-fonctionnement{
         display: flex;
         flex-direction: row;
@@ -190,6 +194,16 @@ header{
     width: 100%;
     gap:1.12rem;
     margin-bottom: 4.12rem;
+    .groupe1-restaurants{
+        gap: 1.12rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .groupe2-restaurants{
+        gap: 1.12rem;
+        display: flex;
+        flex-direction: column;
+    }
 
     img{
         width: 100%;
@@ -284,5 +298,91 @@ footer{
     body{
         width:100%;
         height: 87.1875rem;
+    }
+    h1{
+        text-align: center;
+        font-family: Roboto;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .explorer{
+       gap: 1.12rem;
+       padding-bottom: 1.88rem;
+        h2{
+            margin: 0%;
+        }
+        
+    }
+    .fonctionnement{
+        flex-direction: column;
+        gap: 1.56rem;
+        justify-content: flex-start;
+        padding-left: 11.25rem;
+        padding-bottom: 1.88rem;
+        height: 15%;
+        padding-right: 0%;
+        width: auto;
+        h3{
+            padding-left: 0%;
+        }
+        .global-fonctionnement{
+            flex-direction: row;
+            display: flex;
+            align-self: stretch;
+        }
+        .cards-fonctionnement{
+            width: 25%;
+        }
+    }
+    .restaurants{
+        padding-left:11.25rem;
+        padding-bottom: 1.88rem;
+        width: auto;
+        margin: 0%;
+        h3{
+            margin-bottom: 0%;
+        }
+
+        .groupe1-restaurants{
+            display: flex;
+            flex-direction: row;
+            gap: 6.25rem;
+        }
+        .groupe2-restaurants{
+            display: flex;
+            flex-direction: row;
+            gap: 6.25rem;
+            padding-top: 3.12rem;
+        }
+        .cards-restaurants{
+            width: 40%;
+           
+        }
+    }
+    footer{
+        flex-direction: row-reverse;
+        width: auto;
+
+        h5{
+            margin: 0%;
+        }
+        .footer-web{
+            display: flex;
+            flex-direction: row;    
+            align-self: center;     
+            gap: 0.44rem;
+            padding-right: 5rem;
+            .footer-partner{
+            gap: 0.63rem;
+            padding-right: 2.5rem;
+        }
+        }
+        .footer-tittle{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        
     }
 }
