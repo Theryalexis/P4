@@ -2,19 +2,24 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>OhMyFood</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../assets/css/restaurants.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
   <script src="script.js"></script>
   <script src="https://kit.fontawesome.com/1762e17c4b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <i class="fa-solid fa-arrow-left"></i>
-        <img src="images/logo/ohmyfood.png" alt="OhMyFood">
+      <a href="../index.html"><i class="fa-solid fa-arrow-left"></i></a>
+      <p>ohmyfood</p>
     </header>
     <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française">
-    <section>
-            <h1>La note enchantée</h1>
+    <section class="menu">
+            <div class="titre-menu"><h1>La note enchantée</h1></div>
             <i class="fa-regular fa-heart"></i>
             <div class="entree">
                 <h2>Entrées</h2>
@@ -73,17 +78,18 @@
           <bouton></bouton>
     </section>
     <footer>
-        <img src="images/logo/ohmyfood.png">
-        <div>
-          <i class="fa-solid fa-utensils"></i>
-          <p>Proposer un restaurant</p>
-        </div>
-        <div>
-          <i class="fa-solid fa-handshake-angle"></i>
-          <p>Devenir partenaire</p>
-        </div>
-        <p>Mentions légales</p>
-        <p>Contact</p>
-      </footer>
+      <div class="footer-tittle"><h5>ohmyfood</h5></div>
+      <div class="footer-web">
+      <div class="footer-eat">
+        <img src="../assets/images/footer/Vector (1).svg" alt="eat">
+        <p>Proposer un restaurant</p>
+      </div>
+      <div class="footer-partner">
+        <img src="../assets/images/footer/Vector.svg" alt="partner">
+        <p>Devenir partenaire</p>
+      </div>
+      <p>Mentions légales</p>
+      <p>Contact</p></div>
+    </footer>
 </body>
 </html>

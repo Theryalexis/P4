@@ -1,0 +1,187 @@
+body{
+    width: 23.4375rem;
+    height: 100%;
+    margin: auto;
+}
+
+$background: #F6F6F6;
+$black: #101010;
+$buttonGradient:#FF79DA;
+$green: #99E2D0;
+$greenFont: #008766;
+$grey:#353535;
+$grey2: #EAEAEA;
+$Grey4: #7E7E7E;
+$primary: #9356DC;
+$white: #FFFFFF;
+
+h1{
+    font-family: Shrikhand;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h2{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+h3{
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+h5{
+    font-family: Shrikhand;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+p{
+    font-family: Roboto;
+    font-size: 0.94019rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 23.4375rem;
+    height: 3.9375rem;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.62rem;
+    padding-left: 1.06rem;
+    a{
+        justify-content: center;
+    }
+    p{
+        font-family: Shrikhand;
+        font-size: 1.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.images-restaurants img{
+    width: 23.4375rem;
+    height: 17.1875rem;
+}
+.menu{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    background: $background;
+    padding: 0.81rem;
+    border-radius: 1.5rem 1.5rem 0% 0%;
+    position: relative;
+    margin-top: -4rem;
+    .titre-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    i{
+        align-self: center;
+    }
+    h1{
+        margin: 0%;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    .entree-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 19.9rem;
+        height: 2.63rem;
+        padding: 0.94rem 0.94rem;
+        border-radius: 0.94019rem;
+        background: $white;
+        box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px rgba(0, 0, 0, 0.10);
+        }
+    .entree-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 0.31rem;
+        margin: 0%;
+        h3{
+            margin: 0%;
+        }
+        p{
+            margin: 0%;
+        }
+        }
+    .entree-prix{
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+            i{
+                align-self: center;
+            }
+        }
+}
+footer{
+    display: flex;
+    width: 86%;
+    padding: 1.375rem 1.5625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.44rem;
+    background: var(--grey, #353535);
+    margin: 0%;
+    h5{
+        width: 8.59888rem;
+        height: 1.6875rem;
+        color: $white;
+        margin-bottom: 0.66rem;
+        margin-top: 0%;
+    }
+    i{
+        color: $white;
+        margin: 0%;
+    }
+    p{
+        color: $white;
+        margin: 0%;
+        font-family: Roboto;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .footer-eat{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        img{
+            width: 0.6875rem;
+            height: 0.8125rem;
+            margin: 0%;
+        }
+    }
+    .footer-partner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        img{
+            width: 0.74488rem;
+            height: 0.8125rem; 
+            margin: 0%;
+        }
+    } 
+}  
