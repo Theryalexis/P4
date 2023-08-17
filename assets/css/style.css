@@ -1,6 +1,6 @@
 body {
   width: 23.4375rem;
-  height: 140.75rem;
+  height: 100%;
   margin: auto;
 }
 
@@ -196,7 +196,7 @@ header img {
   display: flex;
   margin-left: 1.25rem;
   justify-content: center;
-  width: 100%;
+  width: 94%;
   gap: 1.12rem;
   margin-bottom: 4.12rem;
 }
@@ -219,6 +219,8 @@ header img {
 .restaurants .cards-restaurants {
   display: flex;
   flex-direction: column;
+  width: 21.25rem;
+  height: 15.6875rem;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
   border-radius: 0.9375rem;
 }
@@ -258,7 +260,7 @@ header img {
 
 footer {
   display: flex;
-  width: 23.4375rem;
+  width: 86%;
   padding: 1.375rem 1.5625rem;
   flex-direction: column;
   align-items: flex-start;
@@ -271,6 +273,7 @@ footer h5 {
   height: 1.6875rem;
   color: #FFFFFF;
   margin-bottom: 0.66rem;
+  margin-top: 0%;
 }
 footer i {
   color: #FFFFFF;
@@ -303,7 +306,7 @@ footer .footer-partner img {
   margin: 0%;
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   body {
     width: 100%;
     height: 87.1875rem;
