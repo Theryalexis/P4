@@ -168,6 +168,8 @@ header img {
   background-color: #9356DC;
   width: 1.5rem;
   height: 1.5rem;
+  position: absolute;
+  margin-left: -0.8rem;
 }
 .fonctionnement .cards-fonctionnement .number-fonctionnement p {
   color: #FFFFFF;

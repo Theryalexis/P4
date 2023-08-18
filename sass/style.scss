@@ -168,6 +168,8 @@ header{
             background-color: $primary;
             width: 1.5rem;
             height: 1.5rem;
+            position: absolute;
+            margin-left: -0.8rem;
             p{
                 color: $white;
             }

@@ -64,6 +64,7 @@ header {
 }
 header a {
   justify-content: center;
+  text-decoration: none;
 }
 header p {
   font-family: Shrikhand;
@@ -71,6 +72,12 @@ header p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+header a:visited {
+  text-decoration: none;
+}
+header i {
+  color: #101010;
 }
 
 .images-restaurants img {
@@ -156,6 +163,9 @@ header p {
   font-weight: 500;
   line-height: normal;
   color: #FFFFFF;
+}
+.menu .button-commander:active + .entree-cards {
+  transform: scale(1.5rem);
 }
 .menu .button-commander:hover {
   border-radius: 1.5625rem;
