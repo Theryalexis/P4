@@ -220,6 +220,51 @@ header{
         height: 15.6875rem;
         box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
         border-radius: 0.9375rem;
+        .button{
+            margin-top: 2rem;
+            margin-right: 1rem;
+            margin-bottom: 2rem;
+            .fa-solid{
+                display: flex;
+                color: $primary;
+                opacity: 0;
+            }
+            .fa-regular{
+                display: flex;
+                opacity: 1;
+            }
+        &.button:active{
+            .fa-regular{
+                opacity: 0;
+                transform: scale(1);
+            }
+            .fa-solid{
+                opacity: 1;
+                transform: scale(1.2);
+            }
+        }}
+}
+    
+    .cards-news{
+        display: flex;
+        position: absolute;
+        color: $greenFont;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 0.125rem;
+        background: var(--green, #99E2D0);
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+        width: 5rem;
+        height: 1.8125rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: -14.8rem;
+        margin-left: 14.8rem;
+        z-index: 1;
     }
     .cards-restaurants-info{
         display: flex;
@@ -231,15 +276,11 @@ header{
         display: flex;
         flex-direction: column;
     }
-    .heart-restaurants{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 1.56rem;
-    }
+    
     h4{
         margin-top: 1rem;
         margin-bottom: 0rem;
+        margin-right: 8rem;
         color: #000;
     }
     p{
@@ -247,34 +288,9 @@ header{
         font-size: 1.0625rem;
         font-weight: 300;
     }
-    button{
-        background:none;
-        border: none;
-        padding-right: 1.56rem;
-        padding-bottom:2.06rem;
-        padding-top: 1.44rem;
-        .fa-heart{
-            display: flex;
-            color: $black;
-        }
-        .fa-solid{
-            display: none;
-        }
-    
-        &:focus{
-        background: none;
-        border: none;
-        .fa-heart{
-            display: flex;
-            color: #9356DC;
-        }
-        .fa-regular{
-            display: none;
-        }
-        }
     
 }
-}
+
 
 footer{
     display: flex;
@@ -323,7 +339,7 @@ footer{
         }
     }   
 }
-@media ( min-width:1024px ){
+@media ( min-width:480px ){
     body{
         width:100%;
         height: 87.1875rem;
