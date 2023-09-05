@@ -149,23 +149,68 @@ header i {
   border-radius: 0.94019rem;
   background: #FFFFFF;
   box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  transform: translateX(15px);
+  animation: trans-card 1s forwards;
 }
-.menu .entree-cards:hover {
-  animation-name: check-anim;
-  animation: transform 10sec;
+.menu .entree-cards:hover .entree-animations {
+  transform: translateX(-3.58rem);
+  opacity: 1;
 }
-.menu .entree-cards .entree-animations {
+.menu .entree-cards:hover .entree-prix {
+  transform: translateX(-3.58rem);
+}
+.menu .entree-cards:hover .entree-description {
+  width: 13rem;
+}
+.menu .entree-cards:hover .entree-texte {
+  width: 13rem;
+}
+@keyframes trans-card {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
+.menu .entree-cards .entree-description {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menu .entree-cards .entree-texte {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: Roboto;
+  font-size: 0.94019rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.menu .entree-animations {
   position: absolute;
   margin-left: 21rem;
-  width: 3.6875rem;
+  width: 3.58rem;
   height: 72.15px;
   background-color: #99E2D0;
   border-radius: 0% 0.94019rem 0.94019rem 0%;
   margin-top: -0.95rem;
   opacity: 1;
-  z-index: 2;
+  transition: all 0.7s ease-in-out;
+  overflow: hidden;
 }
-.menu .entree-cards .entree-animations i {
+.menu .entree-animations i {
   color: #FFFFFF;
   padding-top: 1.7rem;
   padding-left: 1.35rem;
@@ -175,22 +220,21 @@ header i {
   flex-direction: column;
   gap: 0.31rem;
   margin: 0%;
-}
-.menu .entree-menu h3 {
-  margin: 0%;
-}
-.menu .entree-menu p {
-  margin: 0%;
+  flex-grow: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .menu .entree-prix {
   display: flex;
   flex-direction: row;
-  align-self: flex-start;
+  align-self: flex-end;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 0.7s ease-in-out;
 }
-.menu .entree-prix h4 {
-  margin-top: 100%;
-}
-.menu .button-commander {
+
+.button-commander {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -203,18 +247,20 @@ header i {
   background: var(--button-gradient, linear-gradient(175deg, #9356DC 0%, #FF79DA 100%));
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
-.menu .button-commander p {
+.button-commander p {
   font-family: Roboto;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   color: #FFFFFF;
+  margin-top: 1rem;
 }
-.menu .button-commander:active + .entree-cards {
+.button-commander:active + .entree-cards {
   transform: scale(1.5rem);
 }
-.menu .button-commander:hover {
+
+.button-commander:hover {
   border-radius: 1.5625rem;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(182deg, #9356DC 0%, #FF79DA 100%);
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
