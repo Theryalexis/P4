@@ -67,6 +67,11 @@ header{
     align-items: center;
     gap: 5rem;
     padding-left: 1.06rem;
+    .logo{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+    }
     a{
         justify-content: center;
         text-decoration: none;
@@ -329,20 +334,72 @@ footer{
     } 
 }  
 
-@keyframes check-anim {
-    0% {
-        transform: translateX(3.58rem);
-        animation-timing-function: ease-in;
-        animation-duration: 1sec;
+@media ( min-width:1024px) {
+    body{
+        width: 100%;
+        height: auto;
+        margin: auto;
     }
-    50%{
-        transform: translateX(-3.58rem);
-        animation-timing-function: ease-out;
-        animation-duration: 5sec;
+    .images-restaurants img{
+        width: 100%;
+        height: 17.1875rem;
+        object-fit: cover;
     }
-    100%{
-        transform: translateX(3.58rem);
-        animation-timing-function: ease-out;
-        animation-duration: 5sec;
+    header{
+        width: 100%;
+        .logo{
+            display: flex;
+            justify-content: center;
+            box-sizing: border-box;
+            width: 88%;
+        }
     }
+    .menu{
+        width: 80%;
+        align-items: center;
+        margin: auto;
+        margin-top: -3rem;
+        .titre-menu{
+            gap: 1.5rem;
+        }
+        .entree-cards{
+            width: 40rem;
+        }
+        .entree-animations{
+            margin-left: 41rem;
+        }
+        .entree-menu{
+            .entree-description{
+                overflow: unset;   
+            }
+            .entree-texte{
+                overflow: unset;
+            }
+        }
+    }
+    footer{
+        flex-direction: row-reverse;
+        width: auto;
+        h5{
+            margin: 0%;
+        }
+        .footer-web{
+            display: flex;
+            flex-direction: row;    
+            align-self: center;     
+            gap: 0.44rem;
+            padding-right: 5rem;
+            .footer-partner{
+            gap: 0.63rem;
+            padding-right: 2.5rem;
+        
+        }
+        }
+        .footer-tittle{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    
+        }   
 }
+
