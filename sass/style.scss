@@ -62,9 +62,11 @@ p{
 }
 a{
     text-decoration: none;
+    color: #000;
 }
 a:visited{
     text-decoration: none;
+    color: #000;
 }
 header{
     width: 100%;
@@ -239,7 +241,7 @@ header{
                 display: flex;
                 opacity: 1;
             }
-        &.button:active{
+        &.button:hover{
             .fa-regular{
                 opacity: 0;
                 transform: scale(1);

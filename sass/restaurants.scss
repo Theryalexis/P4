@@ -271,9 +271,7 @@ header{
             color: $white;
             margin-top: 1rem;
         }
-        &:active+.entree-cards{
-            transform: scale(1.5rem);
-        }
+        
     }
     .button-commander:hover{
         border-radius: 1.5625rem;
@@ -341,7 +339,7 @@ footer{
     }
     header{
        .logo{ 
-            width: 100%;
+            width: 86%;
     }}
     .images-restaurants img{
         width: 100%;

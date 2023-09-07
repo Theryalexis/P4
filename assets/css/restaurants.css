@@ -260,9 +260,6 @@ header i {
   color: #FFFFFF;
   margin-top: 1rem;
 }
-.button-commander:active + .entree-cards {
-  transform: scale(1.5rem);
-}
 
 .button-commander:hover {
   border-radius: 1.5625rem;
@@ -329,7 +326,7 @@ footer .footer-partner img {
     margin: auto;
   }
   header .logo {
-    width: 100%;
+    width: 86%;
   }
   .images-restaurants img {
     width: 100%;

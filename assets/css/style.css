@@ -56,10 +56,12 @@ p {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 a:visited {
   text-decoration: none;
+  color: #000;
 }
 
 header {
@@ -241,11 +243,11 @@ header img {
   display: flex;
   opacity: 1;
 }
-.restaurants .cards-restaurants .button.button:active .fa-regular {
+.restaurants .cards-restaurants .button.button:hover .fa-regular {
   opacity: 0;
   transform: scale(1);
 }
-.restaurants .cards-restaurants .button.button:active .fa-solid {
+.restaurants .cards-restaurants .button.button:hover .fa-solid {
   opacity: 1;
   transform: scale(1.2);
 }
