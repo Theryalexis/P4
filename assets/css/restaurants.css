@@ -55,7 +55,6 @@ p {
 header {
   display: flex;
   flex-direction: row;
-  width: 23.4375rem;
   height: 3.9375rem;
   justify-content: flex-start;
   align-items: center;
@@ -329,19 +328,13 @@ footer .footer-partner img {
     height: auto;
     margin: auto;
   }
+  header .logo {
+    width: 100%;
+  }
   .images-restaurants img {
     width: 100%;
     height: 17.1875rem;
     object-fit: cover;
-  }
-  header {
-    width: 100%;
-  }
-  header .logo {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    width: 88%;
   }
   .menu {
     width: 80%;

@@ -1,9 +1,9 @@
  
 body{
-    width: 23.4375rem;
     height: 100%;
     margin: auto;
     box-sizing: border-box;
+    width: 23.4375rem;;
 }
 
 $background: #F6F6F6;
@@ -149,7 +149,6 @@ header{
     .cards-fonctionnement{
         display: flex;
         flex-direction: row;
-        width: 20.15538rem;
         height: 4.52369rem;
         border-radius: 1.25rem;
         background: $background;
@@ -193,20 +192,24 @@ header{
 .restaurants{
     flex-direction: column;
     display: flex;
-    margin-left: 1.25rem;
     justify-content: center;
-    width: 94%;
+    width: 100%;
     gap:1.12rem;
     margin-bottom: 4.12rem;
+    h3{
+        margin-left: 1.25rem;
+    }
     .groupe1-restaurants{
         gap: 1.12rem;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .groupe2-restaurants{
         gap: 1.12rem;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     img{
         width: 100%;
@@ -218,10 +221,11 @@ header{
     .cards-restaurants{
         display: flex;
         flex-direction: column;
-        width: 21.25rem;
+        width: 90%;
         height: 15.6875rem;
         box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
         border-radius: 0.9375rem;
+        position: relative;
         .button{
             margin-top: 2rem;
             margin-right: 1rem;
@@ -245,7 +249,7 @@ header{
                 transform: scale(1.2);
             }
         }}
-}
+    }
     
     .cards-news{
         display: flex;
@@ -264,9 +268,9 @@ header{
         height: 1.8125rem;
         align-items: center;
         justify-content: center;
-        margin-top: 0.8rem;
-        margin-left: 15.5rem;
         z-index: 1;
+        top: 15px;
+        right: 15px;
     }
     .cards-restaurants-info{
         display: flex;
@@ -296,7 +300,6 @@ header{
 
 footer{
     display: flex;
-    width: 86%;
     padding: 1.375rem 1.5625rem;
     flex-direction: column;
     align-items: flex-start;
@@ -371,7 +374,7 @@ footer{
         height: 15%;
         width: auto;
         h3{
-            padding-left: 0%;
+            padding-left: 1.25rem;
         }
         .global-fonctionnement{
             flex-direction: row;
