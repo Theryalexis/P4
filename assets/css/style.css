@@ -2,7 +2,6 @@ body {
   height: 100%;
   margin: auto;
   box-sizing: border-box;
-  width: 23.4375rem;
 }
 
 h1 {
@@ -158,6 +157,7 @@ header img {
   margin-right: 1.25rem;
   align-items: center;
   justify-content: flex-start;
+  width: 80%;
 }
 .fonctionnement .cards-fonctionnement i {
   color: #7E7E7E;

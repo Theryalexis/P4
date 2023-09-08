@@ -3,7 +3,6 @@ body{
     height: 100%;
     margin: auto;
     box-sizing: border-box;
-    width: 23.4375rem;;
 }
 
 $background: #F6F6F6;
@@ -159,6 +158,7 @@ header{
         margin-right: 1.25rem;
         align-items: center;
         justify-content: flex-start;
+        width: 80%;
         i{
             color: $Grey4;
         }

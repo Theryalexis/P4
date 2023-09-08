@@ -1,5 +1,4 @@
 body{
-    width: 23.4375rem;
     height: 100%;
     margin: auto;
 }
@@ -70,6 +69,7 @@ header{
         display: flex;
         justify-content: center;
         box-sizing: border-box;
+        width: 80%;
     }
     a{
         justify-content: center;
@@ -91,8 +91,9 @@ header{
 
 }
 .images-restaurants img{
-    width: 23.4375rem;
+    width: 100%;
     height: 17.1875rem;
+    object-fit: cover;
 }
 .menu{
     height: 100%;
@@ -104,10 +105,12 @@ header{
     border-radius: 1.5rem 1.5rem 0% 0%;
     position: relative;
     margin-top: -4rem;
+    align-items: center;
     .titre-menu{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 1.5rem;
         .button{
             margin-top: 1.2rem;
             margin-right: 1rem;
