@@ -57,14 +57,13 @@ header {
   height: 3.9375rem;
   justify-content: flex-start;
   align-items: center;
-  gap: 5rem;
   padding-left: 1.06rem;
 }
 header .logo {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-  width: 80%;
+  width: 100%;
 }
 header a {
   justify-content: center;
@@ -327,9 +326,6 @@ footer .footer-partner img {
     width: 100%;
     height: auto;
     margin: auto;
-  }
-  header .logo {
-    width: 86%;
   }
   .images-restaurants img {
     width: 100%;
