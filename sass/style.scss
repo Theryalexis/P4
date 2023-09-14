@@ -274,10 +274,11 @@ header{
             margin-top: 2rem;
             margin-right: 1rem;
             margin-bottom: 2rem;
-            .fa-solid{
+            img{
                 display: flex;
-                color: #9356DC;
                 opacity: 0;
+                height: 20px;
+                border-radius: 0;
             }
             .fa-regular{
                 display: flex;
@@ -288,7 +289,7 @@ header{
                 opacity: 0;
                 transform: scale(1);
             }
-            .fa-solid{
+            img{
                 opacity: 1;
                 transform: scale(1.2);
             }
@@ -441,18 +442,17 @@ footer{
         .groupe1-restaurants{
             display: flex;
             flex-direction: row;
-            gap: 6.25rem;
+            gap: 13rem;
         }
         .groupe2-restaurants{
             display: flex;
             flex-direction: row;
-            gap: 6.25rem;
+            gap: 13rem;
             padding-top: 3.12rem;
         }
         .cards-restaurants{
             width: 35%;
-            margin-left: 50px;
-            margin-right: 20px;
+            margin-left: 20px;
             position: relative;
         
             .cards-news{

@@ -277,10 +277,11 @@ header img {
   margin-right: 1rem;
   margin-bottom: 2rem;
 }
-.restaurants .cards-restaurants .button .fa-solid {
+.restaurants .cards-restaurants .button img {
   display: flex;
-  color: #9356DC;
   opacity: 0;
+  height: 20px;
+  border-radius: 0;
 }
 .restaurants .cards-restaurants .button .fa-regular {
   display: flex;
@@ -290,7 +291,7 @@ header img {
   opacity: 0;
   transform: scale(1);
 }
-.restaurants .cards-restaurants .button.button:hover .fa-solid {
+.restaurants .cards-restaurants .button.button:hover img {
   opacity: 1;
   transform: scale(1.2);
 }
@@ -438,18 +439,17 @@ footer .footer-partner img {
   .restaurants .groupe1-restaurants {
     display: flex;
     flex-direction: row;
-    gap: 6.25rem;
+    gap: 13rem;
   }
   .restaurants .groupe2-restaurants {
     display: flex;
     flex-direction: row;
-    gap: 6.25rem;
+    gap: 13rem;
     padding-top: 3.12rem;
   }
   .restaurants .cards-restaurants {
     width: 35%;
-    margin-left: 50px;
-    margin-right: 20px;
+    margin-left: 20px;
     position: relative;
   }
   .restaurants .cards-restaurants .cards-news {
